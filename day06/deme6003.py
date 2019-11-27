@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from time import sleep
 
-driver =  webdriver.Firefox()
+driver = webdriver.Firefox()
 driver.get("http://192.168.154.129/ecshop")
 
 gaoji = driver.find_element_by_link_text("高级搜索")
