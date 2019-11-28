@@ -16,5 +16,6 @@ print(a1.text)
 a1.dismiss()
 # 确定
 #a1.accept()
+
 sleep(1)
 driver.quit()
